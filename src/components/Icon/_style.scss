@@ -1,0 +1,7 @@
+// sass提供的foreach
+
+@each $key, $val in $theme-colors {
+  .icon-#{$key} {
+    color: $val;
+  }
+}
